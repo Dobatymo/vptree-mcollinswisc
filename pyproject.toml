@@ -1,0 +1,15 @@
+[build-system]
+requires = ["Cython", "enscons", "pytoml"]
+build-backend = "enscons.api"
+
+[project]
+name = "pyvptree"
+description = "Vantage Point Trees (vp-trees) for nearest neighbor search. "
+version = "0.0.1"
+authors = [{ name = "Maxwell D Collins", email = "mcollins@cs.wisc.edu" }]
+keywords = ["vptree"]
+license = "Apache-2.0"
+packages = ["pyvptree"]
+readme = "README.txt"
+src_root = "."
+url = "https://github.com/mcollinswisc/vptree"
